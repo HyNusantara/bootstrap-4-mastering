@@ -56,13 +56,9 @@
                     <h1 class="h2">Overview</h1>
                     <div class="btn-toolbar mb-2 mb-md-0">
                         <div class="btn-group mr-2">
-                            <button class="btn btn-sm btn-outline-secondary">Share</button>
+                            <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modal1">Share</button>
                             <button class="btn btn-sm btn-outline-secondary">Export</button>
                         </div>
-                        <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                            <span data-feather="calendar"></span>
-                            This week
-                        </button>
                     </div>
                 </div>
                 
@@ -98,6 +94,22 @@
                 </table>
 
             </main>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Sharing...
+                </div>
+                <div class="modal-body">
+                    Please wait...
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Share Now</button>
+                </div>
+            </div>
         </div>
     </div>
 
